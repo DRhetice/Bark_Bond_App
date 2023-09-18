@@ -77,7 +77,7 @@ const HomeScreen = () => {
 
       {/* Menus */}
 
-        <ScrollView className=" mt-2">
+        <ScrollView className=" flex-1 mt-2">
           <Menus name="My Pet" data ={1} />
           <Menus name="Services" data ={1} />
           <Menus name="Nearby" data ={1} />
